@@ -15,11 +15,9 @@ Pod::Spec.new do |s|
   s.license         = package["license"]
   s.platforms       = { :ios => "11.0" }
   s.author          = package["author"]
-  s.source          = { :git => package["repository"], :tag => "#{s.version}" }
+  s.source          = { :git => package["repository"] }
   s.header_dir = "react_native_keet_link_sdk"
-
-
-  s.source_files    = "ios/**/*.{h,m,mm,swift}"
+  s.source_files    = "~iOS/**/*.{h,m,mm,swift}"
   
   # install_modules_dependencies(s)  # This guard prevent to install the dependencies when we run `pod install` in the old architecture.
   if ENV['RCT_NEW_ARCH_ENABLED'] == '1' then

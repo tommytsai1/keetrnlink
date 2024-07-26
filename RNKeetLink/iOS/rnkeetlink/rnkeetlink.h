@@ -25,6 +25,7 @@
 #import <optional>
 #import <vector>
 
+
 @protocol NativeKeetLinkModuleiOSSpec <RCTBridgeModule, RCTTurboModule>
 
 - (void)add:(double)a
@@ -33,14 +34,13 @@
      reject:(RCTPromiseRejectBlock)reject;
 
 @end
-namespace facebook::react
-{
+namespace facebook::react {
   /**
    * ObjC++ class for module 'NativeKeetLinkModuleiOS'
    */
-  class JSI_EXPORT NativeKeetLinkModuleiOSSpecJSI : public ObjCTurboModule
-  {
+  class JSI_EXPORT NativeKeetLinkModuleiOSSpecJSI : public ObjCTurboModule {
   public:
     NativeKeetLinkModuleiOSSpecJSI(const ObjCTurboModule::InitParams &params);
   };
 } // namespace facebook::react
+
