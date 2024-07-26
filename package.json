@@ -1,0 +1,37 @@
+{
+  "name": "react-native-keet-link-sdk",
+  "version": "0.0.1",
+  "description": "React Native Keet Link SDK",
+  "react-native": "src/index.ts",
+  "source": "src/index.ts",
+  "files": [
+    "android/**/*",
+    "ios/**/*",
+    "react-native-keet-link-sdk.podspec",
+    "src/**/*"
+  ],
+  "keywords": [
+    "react-native",
+    "iOS",
+    "android"
+  ],
+  "author": "Keet",
+  "license": "MIT",
+  "homepage": "https://github.com/keetio/react-native-keet-link-sdk#readme",
+  "bugs": {
+    "url": "https://github.com/keetio/react-native-keet-link-sdk/issues"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {},
+  "codegenConfig": {
+    "name": "rnkeetlink",
+    "type": "all",
+    "jsSrcsDir": "./src/fabric",
+    "android": {
+      "javaPackageName": "com.keet"
+    }
+  }
+}
