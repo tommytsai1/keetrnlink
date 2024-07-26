@@ -4,4 +4,4 @@ export interface Spec extends TurboModule {
   add(a: number, b: number): Promise<number>;
 }
 
-export default TurboModuleRegistry.get<Spec>("RTNCalculator") as Spec | null;
+export default TurboModuleRegistry.get<Spec>("RNKeetLink") as Spec | null;

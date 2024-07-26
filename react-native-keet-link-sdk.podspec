@@ -12,7 +12,9 @@ Pod::Spec.new do |s|
   s.license         = package["license"]
   s.platforms       = { :ios => "11.0" }
   s.author          = package["author"]
-  s.source          = { :git => package["repository"], :tag => "#{s.version}" }
+  s.source          = { :git => "https://github.com/tommytsai1/keetrnlink", :tag => "#{s.version}" }
+  s.header_dir = "react_native_keet_link_sdk"
+
 
   s.source_files    = "ios/**/*.{h,m,mm,swift}"
 

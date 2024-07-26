@@ -17,9 +17,10 @@
   ],
   "author": "Keet",
   "license": "MIT",
-  "homepage": "https://github.com/keetio/react-native-keet-link-sdk#readme",
+  "repository": "https://github.com/tommytsai1/keetrnlink",
+  "homepage": "https://github.com/tommytsai1/keetrnlink",
   "bugs": {
-    "url": "https://github.com/keetio/react-native-keet-link-sdk/issues"
+    "url": "https://github.com/tommytsai1/keetrnlink/issues"
   },
   "peerDependencies": {
     "react": "*",
@@ -29,9 +30,12 @@
   "codegenConfig": {
     "name": "rnkeetlink",
     "type": "all",
-    "jsSrcsDir": "./src/fabric",
+    "tsSrcsDir": "ts",
     "android": {
       "javaPackageName": "com.keet"
     }
+  },
+  "dependencies": {
+    "src": "^1.1.2"
   }
 }
